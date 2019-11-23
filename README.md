@@ -22,6 +22,6 @@
 
 <h3 align="center"><font color="red">Server</h3></font>
 <p align="center">
-<b>apt update && apt-get -y install git && git clone https://github.com/AcaAutoScrypt/AutoScryptOpenVPN && cd openvpndeb && chmod +x
+<b>apt update && apt-get -y install git && git clone https://github.com/AcaAutoScrypt/AutoScryptOpenVPN && cd AutoScryptOpenVPN && chmod +x
 openvpn.sh && ./openvpn.sh</b>
 </p>
