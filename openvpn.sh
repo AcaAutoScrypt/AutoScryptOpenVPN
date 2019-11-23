@@ -62,9 +62,9 @@ sudo apt-get update
 }
 
 function BadVPN () {
-wget -O /usr/bin/badvpn-udpgw "https://github.com/radzvpn/openvpndeb/blob/master/badvpn-udpgw?raw=true"
+wget -O /usr/bin/badvpn-udpgw "https://github.com/AcaAutoScrypt/AutoScryptOpenVPN/blob/master/badvpn-udpgw?raw=true"
 if [ "$OS" == "x86_64" ]; then
-  wget -O /usr/bin/badvpn-udpgw "https://github.com/radzvpn/openvpndeb/blob/master/badvpn-udpgw64?raw=true"
+  wget -O /usr/bin/badvpn-udpgw "https://github.com/AcaAutoScrypt/AutoScryptOpenVPN/blob/master/badvpn-udpgw64?raw=true"
 fi
 sed -i '$ i\screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300' /etc/rc.local
 chmod +x /usr/bin/badvpn-udpgw
